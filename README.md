@@ -27,6 +27,7 @@ Built and maintained by [Multiplicit](https://multiplicit.co.uk).
 ---
 
 ## Quick start
+You can run this file on your local machine if you have PHP installed. the easiest solution is MS Powershell or any linux terminal.
 
 ### 1. Download PHP-CS-Fixer
 
@@ -77,7 +78,7 @@ to your module root.
 
 Re-run the fixer after adding stubs so they get the licence header too.
 
-### 5. Fix the one gotcha
+### 5. Fix the blank line issue
 
 `@PSR12` adds a blank line between `<?php` and `/**`. The validator requires no
 blank line before the file comment. After the first fixer run, strip them:
@@ -229,4 +230,4 @@ here. Please open an issue first for anything substantive.
 
 ## About
 
-Made by [Multiplicit](https://multiplicit.co.uk) — PrestaShop module development.
+Made by [Multiplicit](https://multiplicit.co.uk) — Affiliate and ecommerce consultancy in the UK.
