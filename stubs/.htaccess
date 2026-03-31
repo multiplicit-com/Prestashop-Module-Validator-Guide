@@ -1,0 +1,17 @@
+# Deny direct access to all files in this directory.
+# Place this file in your module root.
+#
+# See https://github.com/multiplicit-com/prestashop-module-validator-guide
+
+# Apache 2.4
+<IfVersion >= 2.3>
+    <RequireAll>
+        Require all denied
+    </RequireAll>
+</IfVersion>
+
+# Apache 2.2
+<IfVersion < 2.3>
+    Order deny,allow
+    Deny from all
+</IfVersion>
